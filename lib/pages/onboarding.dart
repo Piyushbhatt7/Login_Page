@@ -49,12 +49,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 fontWeight: FontWeight.bold)
               ,),
 
+            SizedBox(height: 40.0,),
+
             Container(
               padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
               margin: EdgeInsets.only(left: 30.0, right: 30.0),
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.white,width: 2.0,), borderRadius: BorderRadius.circular(30.0)
+                border: Border.all(color: Colors.white60,width: 2.0,), borderRadius: BorderRadius.circular(30.0)
               ),
               child: Center(
                 child: Text("SIGN IN",
