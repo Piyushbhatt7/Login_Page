@@ -11,7 +11,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Container(
-        padding: EdgeInsets.only(top: 120.0),
+
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
@@ -26,6 +26,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
         ),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             
             Image.asset("images/dumbell.png",
@@ -52,7 +53,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             SizedBox(height: 40.0,),
 
             Container(
-              padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
+              padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
               margin: EdgeInsets.only(left: 30.0, right: 30.0),
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
@@ -67,10 +68,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
             ),
 
-            SizedBox(height: 25.0,),
+            SizedBox(height: 40.0,),
 
             Container(
-              padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
+              padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
               margin: EdgeInsets.only(left: 30.0, right: 30.0),
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
@@ -85,7 +86,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       fontSize: 25, fontWeight: FontWeight.w500),
                 ),
               ),
-            )
+            ),
+
+
 
           ],
         ),
