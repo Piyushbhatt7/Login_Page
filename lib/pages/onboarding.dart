@@ -12,7 +12,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     return  Scaffold(
       body: Container(
         height: MediaQuery.of(context).size.height,
-
+        width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           gradient:
           LinearGradient(colors: [
@@ -25,7 +25,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
         ),
         child: Column(
-          children: <Widget>[],
+          children: <Widget>[
+
+          ],
         ),
       ),
     );
