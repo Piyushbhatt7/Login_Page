@@ -100,7 +100,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   decoration: BoxDecoration(
                     color: Colors.white
                   ),
-                  child: Image.asset("images/instagram.png"),
+                  child: Image.asset("images/instagram.jpg", height: 40, width: 40, fit: BoxFit.cover,),
                 )
               ],
             ),
