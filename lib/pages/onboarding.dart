@@ -50,9 +50,17 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ,),
 
             Container(
+              margin: EdgeInsets.only(left: 20.0, right: 20.0),
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.white)
+              ),
+              child: Center(
+                child: Text("SIGN IN",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 25, fontWeight: FontWeight.w500),
+                ),
               ),
             )
 
