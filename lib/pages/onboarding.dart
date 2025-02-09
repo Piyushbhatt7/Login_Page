@@ -27,7 +27,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         child: Column(
           children: <Widget>[
             
-            Image.asset("images/dumbell.png", color: Colors.white,height: 50, width: 50,)
+            Image.asset("images/dumbell.png", color: Colors.white,height: 50, width: 50, fit: BoxFit.cover,)
 
           ],
         ),
