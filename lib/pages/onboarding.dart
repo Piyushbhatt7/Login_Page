@@ -67,17 +67,21 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
             ),
 
+            SizedBox(height: 25.0,),
+
             Container(
               padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
               margin: EdgeInsets.only(left: 30.0, right: 30.0),
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                  border: Border.all(color: Colors.white60,width: 2.0,), borderRadius: BorderRadius.circular(30.0)
+                  color: Colors.white,
+                   borderRadius: BorderRadius.circular(30.0),
+
               ),
               child: Center(
                 child: Text("LOG IN",
                   style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontSize: 25, fontWeight: FontWeight.w500),
                 ),
               ),
