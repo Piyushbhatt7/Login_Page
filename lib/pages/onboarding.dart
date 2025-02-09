@@ -9,13 +9,21 @@ class OnboardingScreen extends StatefulWidget {
 class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
-    body:
-    Container(
-      child: Column(
-        children: <Widget>[],
+    return  Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          gradient:
+          LinearGradient(colors: [
+            Color(0xffB51837),
+            Color(0xff661C3A),
+            Color(0xff301939)
+          ]),
+        ),
+        child: Column(
+          children: <Widget>[],
+        ),
       ),
-    )
-    ,
+    );
+
   }
 }
