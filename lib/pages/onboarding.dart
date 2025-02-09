@@ -11,6 +11,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Container(
+        padding: EdgeInsets.only(top: 120.0),
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
@@ -27,7 +28,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         child: Column(
           children: <Widget>[
             
-            Image.asset("images/dumbell.png", color: Colors.white,height: 50, width: 50, fit: BoxFit.cover,)
+            Image.asset("images/dumbell.png", color: Colors.white,height: 90, width: 90, fit: BoxFit.cover,)
 
           ],
         ),
