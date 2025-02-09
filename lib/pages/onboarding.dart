@@ -32,10 +32,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               color: Colors.white,
               height: 80,
               width: 80,
-              fit: BoxFit.cover
+              //fit: BoxFit.cover
             ),
 
-            Text("Fitness club", style: TextStyle(color: Colors.white, fontSize: 30),)
+            Text("FITNESS CLUB", style: TextStyle(color: Colors.white, fontSize: 30),)
 
           ],
         ),
