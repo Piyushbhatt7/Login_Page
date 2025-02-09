@@ -50,7 +50,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ,),
 
             Container(
-              padding: EdgeInsets.only(top: 20.0),
+              padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
               margin: EdgeInsets.only(left: 30.0, right: 30.0),
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
