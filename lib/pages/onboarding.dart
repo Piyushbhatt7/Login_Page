@@ -35,7 +35,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               fit: BoxFit.cover
             ),
 
-            Text("Fitness club", style: TextStyle(color: Colors.white),)
+            Text("Fitness club", style: TextStyle(color: Colors.white, fontSize: 30),)
 
           ],
         ),
