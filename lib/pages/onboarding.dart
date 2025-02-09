@@ -88,8 +88,22 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
             ),
 
+            Text("Login with Social Media",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,),
+            ),
 
-
+            Row(
+              children: <Widget>[
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white
+                  ),
+                  child: Image.asset("images/instagram.png"),
+                )
+              ],
+            ),
           ],
         ),
       ),

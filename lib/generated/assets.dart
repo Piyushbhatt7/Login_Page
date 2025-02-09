@@ -4,8 +4,8 @@ class Assets {
 
   static const String imagesDumbell = 'images/dumbell.png';
   static const String imagesFace = 'images/face.jpg';
-  static const String imagesInsta = 'images/insta.webp';
-  static const String imagesPngClipartGoogleLogoGoogleLogoInternetGoogleAdsGoogleTextTrademark = 'images/google.png';
+  static const String imagesGoogle = 'images/google.png';
+  static const String imagesImages = 'images/instagram.jpg';
   static const String imagesSearch = 'images/search.png';
 
 }
