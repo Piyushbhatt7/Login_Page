@@ -97,10 +97,31 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             Row(
               children: <Widget>[
                 Container(
+                  padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(60),
                     color: Colors.white
                   ),
                   child: Image.asset("images/instagram.jpg", height: 40, width: 40, fit: BoxFit.cover,),
+                ),
+
+                Container(
+                  padding: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(60),
+                      color: Colors.white
+                  ),
+                  child: Image.asset("images/face.png", height: 40, width: 40, fit: BoxFit.cover,),
+                ),
+
+
+                Container(
+                  padding: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(60),
+                      color: Colors.white
+                  ),
+                  child: Image.asset("images/google.png", height: 40, width: 40, fit: BoxFit.cover,),
                 )
               ],
             ),
