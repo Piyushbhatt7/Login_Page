@@ -17,7 +17,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             Color(0xffB51837),
             Color(0xff661C3A),
             Color(0xff301939)
-          ]),
+          ],
+          begin: Alignment.topLeft, end: Alignment.topRight
+
+          ),
         ),
         child: Column(
           children: <Widget>[],
