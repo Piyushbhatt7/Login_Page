@@ -145,7 +145,7 @@ class _SignInState extends State<SignIn> {
                                 style: TextStyle(
                                   color: Colors.black54,
                                   fontSize: 18.0,
-                                  // fontWeight: FontWeight.bold
+                                  fontWeight: FontWeight.w500
                                 ),
                                 )
                               ],
