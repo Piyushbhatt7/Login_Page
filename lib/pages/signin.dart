@@ -92,7 +92,7 @@ class _SignInState extends State<SignIn> {
                       ),
                     ),
 
-                    SizedBox(height: 10.0,),
+                    SizedBox(height: 18.0,),
 
                     Row(
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -101,7 +101,7 @@ class _SignInState extends State<SignIn> {
                           "Forgot Password?",
                           style: TextStyle(
                             color:  Colors.blue,
-                            fontSize: 18.0,
+                            fontSize: 16.0,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
