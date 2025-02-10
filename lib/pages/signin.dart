@@ -108,6 +108,8 @@ class _SignInState extends State<SignIn> {
                       ],
                     ),
 
+                    SizedBox(height: 50.0,),
+
                     Container(
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
@@ -120,7 +122,17 @@ class _SignInState extends State<SignIn> {
                             begin: Alignment.topLeft, end: Alignment.topRight
                       ),
 
-                    )
+                    ),
+                      child: Center(
+                        child: Text("SIGN IN",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 24,
+                        ),
+                        ),
+                      ),
+
+
                     ),
                   ],
                 ),
