@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:login_screen/pages/signup.dart';
 
 class SignIn extends StatefulWidget {
   const SignIn({super.key});
@@ -156,7 +157,7 @@ class _SignInState extends State<SignIn> {
                                 GestureDetector(
                                   onTap: ()
                                   {
-
+                                    Navigator.push(context, MaterialPageRoute(builder: (context)=> Signup())
                                   },
                                   child: Text("SIGN UP",
                                     style: TextStyle(
