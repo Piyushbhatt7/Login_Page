@@ -3,9 +3,9 @@ class Assets {
   Assets._();
 
   static const String imagesDumbell = 'images/dumbell.png';
-  static const String imagesFace = 'images/face.jpg';
+  static const String imagesFacebookLogo(square) = 'images/face.png';
   static const String imagesGoogle = 'images/google.png';
-  static const String imagesImages = 'images/instagram.jpg';
+  static const String imagesInstagram = 'images/instagram.jpg';
   static const String imagesSearch = 'images/search.png';
 
 }
