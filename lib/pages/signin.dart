@@ -92,12 +92,14 @@ class _SignInState extends State<SignIn> {
                       ),
                     ),
 
+                    SizedBox(height: 10.0,),
+
                     Row(
                       children: [
                         Text(
                           "Forgot Password?",
                           style: TextStyle(
-                            color:  Color(0xffB51837),
+                            color:  Colors.blue,
                             fontSize: 24.0,
                             fontWeight: FontWeight.bold,
                           ),
