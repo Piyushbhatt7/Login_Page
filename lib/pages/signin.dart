@@ -54,6 +54,15 @@ class _SignInState extends State<SignIn> {
                 ),
                 child: Column(
                   children: <Widget>[
+
+                    Text(
+                      "Hello\nSign in!",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 40.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
               
                  TextField(
                    decoration: InputDecoration(
