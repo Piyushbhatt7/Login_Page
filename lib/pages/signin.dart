@@ -51,7 +51,7 @@ class _SignInState extends State<SignIn> {
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                    color: Colors.white,
-                  borderRadius: BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10))
+                  borderRadius: BorderRadius.only(topLeft: Radius.circular(30), topRight: Radius.circular(30))
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
