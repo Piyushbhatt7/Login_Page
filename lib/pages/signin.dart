@@ -134,9 +134,21 @@ class _SignInState extends State<SignIn> {
                         ),
                         ),
                       ),
-
-
                     ),
+
+                     Row (
+                       children: [
+                         Column(
+                              children: <Widget>[
+
+                                Text("Don't have an account?")
+                              ],
+                            ),
+                          ],
+                     )
+
+
+
                   ],
                 ),
               ),
