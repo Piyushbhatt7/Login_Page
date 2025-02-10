@@ -53,13 +53,14 @@ class _SignInState extends State<SignIn> {
                   borderRadius: BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10))
                 ),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
 
                     Text(
-                      "Hello\nSign in!",
+                      "Email",
                       style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 40.0,
+                        color:  Color(0xffB51837),
+                        fontSize: 20.0,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
