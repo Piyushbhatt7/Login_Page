@@ -13,7 +13,7 @@ class _SignInState extends State<SignIn> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Container(
-
+        padding: EdgeInsets.only(top: 40.0, left: 30.0),
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
