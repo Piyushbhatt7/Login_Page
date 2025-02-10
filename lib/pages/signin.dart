@@ -136,13 +136,13 @@ class _SignInState extends State<SignIn> {
                       ),
                     ),
 
-                     SizedBox(height: MediaQuery.of(context).size.height/5,)
+                     SizedBox(height: MediaQuery.of(context).size.height/3,),
 
                      Row (
                        mainAxisAlignment: MainAxisAlignment.end,
                        children: [
                          Column(
-                           crossAxisAlignment: CrossAxisAlignment.start,
+                           crossAxisAlignment: CrossAxisAlignment.end,
                               children: <Widget>[
 
                                 Text("Don't have an account?",
