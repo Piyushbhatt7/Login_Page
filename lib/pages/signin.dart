@@ -147,7 +147,15 @@ class _SignInState extends State<SignIn> {
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w500
                                 ),
-                                )
+                                ),
+
+                                Text("SIGN IN",
+                                  style: TextStyle(
+                                    color: Colors.blue,
+                                    fontSize: 24,
+                                  ),
+                                ),
+
                               ],
                             ),
                           ],
