@@ -106,6 +106,10 @@ class _SignInState extends State<SignIn> {
                           ),
                         ),
                       ],
+                    ),
+
+                    Container(
+                      width: MediaQuery.of(context).size.width,
                     )
               
                   ],
