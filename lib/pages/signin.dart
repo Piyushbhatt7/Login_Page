@@ -95,12 +95,13 @@ class _SignInState extends State<SignIn> {
                     SizedBox(height: 10.0,),
 
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
                           "Forgot Password?",
                           style: TextStyle(
                             color:  Colors.blue,
-                            fontSize: 24.0,
+                            fontSize: 18.0,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
