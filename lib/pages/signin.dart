@@ -68,7 +68,7 @@ class _SignInState extends State<SignIn> {
               
                  TextField(
                    decoration: InputDecoration(
-
+                    hintText: 'Enter Email'
                    ),
                  )
               
