@@ -42,7 +42,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   fontSize: 28),
             ),
 
-            SizedBox(height: 20.0,),
+            SizedBox(height: 30.0,),
 
             Text("Welcome Back", style: TextStyle(
                 color: Colors.white,
