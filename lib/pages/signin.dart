@@ -137,6 +137,7 @@ class _SignInState extends State<SignIn> {
                     ),
 
                      Row (
+                       mainAxisAlignment: MainAxisAlignment.end,
                        children: [
                          Column(
                            crossAxisAlignment: CrossAxisAlignment.start,
