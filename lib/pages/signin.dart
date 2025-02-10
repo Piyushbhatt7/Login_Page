@@ -43,7 +43,7 @@ class _SignInState extends State<SignIn> {
                 ),
               ),
             ),
-            SizedBox(height: 40.0,),
+            SizedBox(height: 35.0,),
 
             Expanded(
               child: Container(
@@ -71,7 +71,24 @@ class _SignInState extends State<SignIn> {
                     hintText: 'Enter Email',
                      prefixIcon: Icon(Icons.email_outlined)
                    ),
-                 )
+                 ),
+
+
+                    Text(
+                      "Email",
+                      style: TextStyle(
+                        color:  Color(0xffB51837),
+                        fontSize: 23.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+
+                    TextField(
+                      decoration: InputDecoration(
+                          hintText: 'Enter Email',
+                          prefixIcon: Icon(Icons.email_outlined)
+                      ),
+                    )
               
                   ],
                 ),
