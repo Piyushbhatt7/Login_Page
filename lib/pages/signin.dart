@@ -144,8 +144,8 @@ class _SignInState extends State<SignIn> {
                                 Text("Don't have an account?",
                                 style: TextStyle(
                                   color: Colors.black54,
-                                  fontSize: 24.0,
-                                  fontWeight: FontWeight.bold
+                                  fontSize: 18.0,
+                                  // fontWeight: FontWeight.bold
                                 ),
                                 )
                               ],
