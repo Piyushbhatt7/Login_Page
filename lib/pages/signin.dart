@@ -55,14 +55,17 @@ class _SignInState extends State<SignIn> {
                 child: Column(
                   children: <Widget>[
               
-                 TextField()
+                 TextField(
+                   decoration: InputDecoration(
+
+                   ),
+                 )
               
                   ],
                 ),
               ),
             ),
           ],
-
 
         ),
       ),
