@@ -90,6 +90,19 @@ class _SignInState extends State<SignIn> {
                           hintText: 'Enter Password',
                           prefixIcon: Icon(Icons.lock_outline)
                       ),
+                    ),
+
+                    Row(
+                      children: [
+                        Text(
+                          "Forgot Password?",
+                          style: TextStyle(
+                            color:  Color(0xffB51837),
+                            fontSize: 24.0,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
                     )
               
                   ],
