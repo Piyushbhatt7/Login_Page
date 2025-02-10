@@ -69,7 +69,7 @@ class _SignInState extends State<SignIn> {
                  TextField(
                    decoration: InputDecoration(
                     hintText: 'Enter Email',
-                     suffixIcon: Icon(Icons.email_outlined)
+                     prefixIcon: Icon(Icons.email_outlined)
                    ),
                  )
               
