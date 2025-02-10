@@ -68,7 +68,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
             ),
 
-            SizedBox(height: 30.0,),
+            SizedBox(height: 26.0,),
 
             Container(
               padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
