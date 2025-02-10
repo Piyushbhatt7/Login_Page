@@ -61,7 +61,7 @@ class _SignInState extends State<SignIn> {
                       "Email",
                       style: TextStyle(
                         color:  Color(0xffB51837),
-                        fontSize: 23.0,
+                        fontSize: 24.0,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -73,13 +73,13 @@ class _SignInState extends State<SignIn> {
                    ),
                  ),
 
-                    SizedBox(height: 30.0,),
+                    SizedBox(height: 40.0,),
 
                     Text(
                       "Password",
                       style: TextStyle(
                         color:  Color(0xffB51837),
-                        fontSize: 23.0,
+                        fontSize: 24.0,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -88,7 +88,7 @@ class _SignInState extends State<SignIn> {
                     TextField(
                       decoration: InputDecoration(
                           hintText: 'Enter Password',
-                          prefixIcon: Icon(Icons.email_outlined)
+                          prefixIcon: Icon(Icons.lock_outline)
                       ),
                     )
               
