@@ -141,7 +141,13 @@ class _SignInState extends State<SignIn> {
                          Column(
                               children: <Widget>[
 
-                                Text("Don't have an account?")
+                                Text("Don't have an account?",
+                                style: TextStyle(
+                                  color: Colors.black54,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.bold
+                                ),
+                                )
                               ],
                             ),
                           ],
