@@ -108,9 +108,10 @@ class _SignInState extends State<SignIn> {
                       ],
                     ),
 
-                    SizedBox(height: 50.0,),
+                    SizedBox(height: 70.0,),
 
                     Container(
+                      height: 50,
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
                         gradient:
@@ -121,6 +122,8 @@ class _SignInState extends State<SignIn> {
                         ],
                             begin: Alignment.topLeft, end: Alignment.topRight
                       ),
+                        
+                        borderRadius: BorderRadius.circular((30.0))
 
                     ),
                       child: Center(
