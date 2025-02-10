@@ -80,7 +80,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
               ),
               child: Center(
-                child: Text("LOG IN",
+                child: Text("SIGN UP",
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 25, fontWeight: FontWeight.w500),
@@ -94,7 +94,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   fontSize: 20,),
             ),
 
+            SizedBox(height: 10,),
+
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
                   padding: EdgeInsets.all(8),
