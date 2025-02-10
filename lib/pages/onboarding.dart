@@ -87,7 +87,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 ),
               ),
             ),
-            Spacer(),
+            //Spacer(),
+            SizedBox(height: MediaQuery.of(context).size.height/8,)
 
             Text("Login with Social Media",
               style: TextStyle(
