@@ -30,6 +30,14 @@ class _SignInState extends State<SignIn> {
         child: Column(
           children: [
 
+            Text(
+              "Hello\nSign in!",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+              ),
+            )
           ],
         ),
       ),

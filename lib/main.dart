@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_screen/pages/onboarding.dart';
+import 'package:login_screen/pages/signin.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
 
       ),
-      home: OnboardingScreen(),
+      home: SignIn(),
     );
   }
 }
