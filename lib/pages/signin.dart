@@ -38,15 +38,17 @@ class _SignInState extends State<SignIn> {
                 fontSize: 40.0,
                 fontWeight: FontWeight.bold,
               ),
-            )
+            ),
+
+            Container(
+              width: MediaQuery.of(context).size.width,
+              decoration: BoxDecoration(
+
+              ),
+            ),
           ],
 
-          Container(
-            width: MediaQuery.of(context).size.width,
-            decoration: BoxDecoration(
 
-            ),
-          ),
         ),
       ),
     );
