@@ -43,7 +43,7 @@ class _SignInState extends State<SignIn> {
                 ),
               ),
             ),
-            SizedBox(height: 35.0,),
+            SizedBox(height: 25.0,),
 
             Expanded(
               child: Container(
