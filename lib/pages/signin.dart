@@ -73,6 +73,7 @@ class _SignInState extends State<SignIn> {
                    ),
                  ),
 
+                    SizedBox(height: 30.0,),
 
                     Text(
                       "Password",
@@ -83,7 +84,6 @@ class _SignInState extends State<SignIn> {
                       ),
                     ),
 
-                    SizedBox(height: 30.0,),
 
                     TextField(
                       decoration: InputDecoration(
