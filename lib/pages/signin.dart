@@ -153,10 +153,16 @@ class _SignInState extends State<SignIn> {
                                 ),
                                 ),
 
-                                Text("SIGN UP",
-                                  style: TextStyle(
-                                    color: Colors.blue,
-                                    fontSize: 20,
+                                GestureDetector(
+                                  onTap: ()
+                                  {
+
+                                  },
+                                  child: Text("SIGN UP",
+                                    style: TextStyle(
+                                      color: Colors.blue,
+                                      fontSize: 20,
+                                    ),
                                   ),
                                 ),
 
