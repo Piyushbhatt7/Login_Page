@@ -105,7 +105,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   child: Image.asset("images/instagram.jpg", height: 40, width: 40, fit: BoxFit.cover,),
                 ),
 
-                SizedBox(width: 10,),
+                SizedBox(width: 20,),
 
                 Container(
                   padding: EdgeInsets.all(8),
@@ -116,7 +116,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   child: Image.asset("images/face.png", height: 40, width: 40, fit: BoxFit.cover,),
                 ),
 
-                SizedBox(width: 10,),
+                SizedBox(width: 20,),
 
                 Container(
                   padding: EdgeInsets.all(8),
