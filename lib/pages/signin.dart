@@ -109,12 +109,19 @@ class _SignInState extends State<SignIn> {
                     ),
 
                     Container(
-                      decoration: BoxDecoration(
-
-                      ),
                       width: MediaQuery.of(context).size.width,
+                      decoration: BoxDecoration(
+                        gradient:
+                        LinearGradient(colors: [
+                          Color(0xffB51837),
+                          Color(0xff661C3A),
+                          Color(0xff301939)
+                        ],
+                            begin: Alignment.topLeft, end: Alignment.topRight
+                      ),
+
                     )
-              
+                    ),
                   ],
                 ),
               ),
