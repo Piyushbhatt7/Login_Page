@@ -96,7 +96,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   fontSize: 20,),
             ),
 
-            SizedBox(height: 20,),
+            SizedBox(height: 20.0,),
 
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
