@@ -139,6 +139,7 @@ class _SignInState extends State<SignIn> {
                      Row (
                        children: [
                          Column(
+                           crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
 
                                 Text("Don't have an account?",
