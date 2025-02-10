@@ -45,18 +45,20 @@ class _SignInState extends State<SignIn> {
             ),
             SizedBox(height: 40.0,),
 
-            Container(
-              width: MediaQuery.of(context).size.width,
-              decoration: BoxDecoration(
-                 color: Colors.white,
-                borderRadius: BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10))
-              ),
-              child: Column(
-                children: <Widget>[
-
-               TextField()
-
-                ],
+            Expanded(
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                decoration: BoxDecoration(
+                   color: Colors.white,
+                  borderRadius: BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10))
+                ),
+                child: Column(
+                  children: <Widget>[
+              
+                 TextField()
+              
+                  ],
+                ),
               ),
             ),
           ],
