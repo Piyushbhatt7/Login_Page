@@ -47,6 +47,7 @@ class _SignInState extends State<SignIn> {
 
             Expanded(
               child: Container(
+                padding: EdgeInsets.only(top: 80.0, left: 30.0, right: 30.0),
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                    color: Colors.white,
