@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_screen/pages/signin.dart';
 
 class Signup extends StatefulWidget {
   const Signup({super.key});
@@ -45,7 +46,7 @@ class _SignupState extends State<Signup> {
 
             Expanded(
               child: Container(
-                padding: EdgeInsets.only(top: 80.0, left: 30.0, right: 30.0),
+                padding: EdgeInsets.only(top: 90.0, left: 40.0, right: 40.0),
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                     color: Colors.white,
@@ -68,7 +69,7 @@ class _SignupState extends State<Signup> {
                     TextField(
                       decoration: InputDecoration(
                           hintText: 'Enter you name',
-                          prefixIcon: Icon(Icons.lock_outline)
+                          prefixIcon: Icon(Icons.person)
                       ),
                     ),
 
@@ -81,6 +82,8 @@ class _SignupState extends State<Signup> {
                       ),
                     ),
 
+                    SizedBox(height: 18.0,),
+
                     TextField(
                       decoration: InputDecoration(
                           hintText: 'Enter Email',
@@ -90,24 +93,9 @@ class _SignupState extends State<Signup> {
 
                     SizedBox(height: 40.0,),
 
-                    Text(
-                      "Password",
-                      style: TextStyle(
-                        color:  Color(0xffB51837),
-                        fontSize: 24.0,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
 
 
-                    TextField(
-                      decoration: InputDecoration(
-                          hintText: 'Enter Password',
-                          prefixIcon: Icon(Icons.lock_outline)
-                      ),
-                    ),
 
-                    SizedBox(height: 18.0,),
 
                     Row(
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -142,7 +130,7 @@ class _SignupState extends State<Signup> {
 
                       ),
                       child: Center(
-                        child: Text("SIGN IN",
+                        child: Text("SIGN UP",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 24,
@@ -160,7 +148,7 @@ class _SignupState extends State<Signup> {
                           crossAxisAlignment: CrossAxisAlignment.end,
                           children: <Widget>[
 
-                            Text("Don't have an account?",
+                            Text("Already have an account?",
                               style: TextStyle(
                                   color: Colors.black54,
                                   fontSize: 18.0,
@@ -168,10 +156,17 @@ class _SignupState extends State<Signup> {
                               ),
                             ),
 
-                            Text("SIGN UP",
-                              style: TextStyle(
-                                color: Colors.blue,
-                                fontSize: 20,
+                            GestureDetector(
+                              onTap: ()
+                              {
+                                Navigator.push(context, MaterialPageRoute(builder: (context)=> SignIn()),
+                                );
+                              },
+                              child: Text("SIGN IN",
+                                style: TextStyle(
+                                  color: Colors.blue,
+                                  fontSize: 20,
+                                ),
                               ),
                             ),
 
