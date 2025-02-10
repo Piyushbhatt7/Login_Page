@@ -28,13 +28,14 @@ class _SignInState extends State<SignIn> {
           ),
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
             Text(
               "Hello\nSign in!",
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 20.0,
+                fontSize: 40.0,
                 fontWeight: FontWeight.bold,
               ),
             )
