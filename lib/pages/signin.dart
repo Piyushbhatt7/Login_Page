@@ -157,7 +157,8 @@ class _SignInState extends State<SignIn> {
                                 GestureDetector(
                                   onTap: ()
                                   {
-                                    Navigator.push(context, MaterialPageRoute(builder: (context)=> Signup())
+                                    Navigator.push(context, MaterialPageRoute(builder: (context)=> Signup()),
+                                    );
                                   },
                                   child: Text("SIGN UP",
                                     style: TextStyle(

@@ -33,7 +33,7 @@ class _SignupState extends State<Signup> {
             Padding(
               padding: const EdgeInsets.only(left: 30.0),
               child: Text(
-                "Hello\nSign in!",
+                "Create your\n account!",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 40.0,
@@ -54,6 +54,23 @@ class _SignupState extends State<Signup> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
+
+                    Text(
+                      "Name",
+                      style: TextStyle(
+                        color:  Color(0xffB51837),
+                        fontSize: 24.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+
+
+                    TextField(
+                      decoration: InputDecoration(
+                          hintText: 'Enter you name',
+                          prefixIcon: Icon(Icons.lock_outline)
+                      ),
+                    ),
 
                     Text(
                       "Email",
@@ -151,16 +168,10 @@ class _SignupState extends State<Signup> {
                               ),
                             ),
 
-                            GestureDetector(
-                              onTap: ()
-                              {
-                                Navigator.push(context, MaterialPageRoute(builder: (context)=> Signup())
-                              },
-                              child: Text("SIGN UP",
-                                style: TextStyle(
-                                  color: Colors.blue,
-                                  fontSize: 20,
-                                ),
+                            Text("SIGN UP",
+                              style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 20,
                               ),
                             ),
 
