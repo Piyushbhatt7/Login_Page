@@ -153,10 +153,10 @@ class _SignInState extends State<SignIn> {
                                 ),
                                 ),
 
-                                Text("SIGN IN",
+                                Text("SIGN UP",
                                   style: TextStyle(
                                     color: Colors.blue,
-                                    fontSize: 24,
+                                    fontSize: 20,
                                   ),
                                 ),
 
