@@ -87,6 +87,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 ),
               ),
             ),
+            Spacer(),
 
             Text("Login with Social Media",
               style: TextStyle(
