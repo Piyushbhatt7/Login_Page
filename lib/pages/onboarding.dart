@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:login_screen/pages/signin.dart';
+import 'package:login_screen/pages/signup.dart';
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 
@@ -52,38 +54,52 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
             SizedBox(height: 40.0,),
 
-            Container(
-              padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
-              margin: EdgeInsets.only(left: 30.0, right: 30.0),
-              width: MediaQuery.of(context).size.width,
-              decoration: BoxDecoration(
-                border: Border.all(color: Colors.white60,width: 2.0,), borderRadius: BorderRadius.circular(30.0)
-              ),
-              child: Center(
-                child: Text("SIGN IN",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 25, fontWeight: FontWeight.w500),
+            GestureDetector(
+              onTap: ()
+              {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> Signup()),
+                );
+              },
+              child: Container(
+                padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
+                margin: EdgeInsets.only(left: 30.0, right: 30.0),
+                width: MediaQuery.of(context).size.width,
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.white60,width: 2.0,), borderRadius: BorderRadius.circular(30.0)
+                ),
+                child: Center(
+                  child: Text("SIGN IN",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25, fontWeight: FontWeight.w500),
+                  ),
                 ),
               ),
             ),
 
             SizedBox(height: 26.0,),
 
-            Container(
-              padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
-              margin: EdgeInsets.only(left: 30.0, right: 30.0),
-              width: MediaQuery.of(context).size.width,
-              decoration: BoxDecoration(
-                  color: Colors.white,
-                   borderRadius: BorderRadius.circular(30.0),
+            GestureDetector(
+              onTap: ()
+              {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> SignIn()),
+                );
+              },
+              child: Container(
+                padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
+                margin: EdgeInsets.only(left: 30.0, right: 30.0),
+                width: MediaQuery.of(context).size.width,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                     borderRadius: BorderRadius.circular(30.0),
 
-              ),
-              child: Center(
-                child: Text("SIGN UP",
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 25, fontWeight: FontWeight.w500),
+                ),
+                child: Center(
+                  child: Text("SIGN UP",
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 25, fontWeight: FontWeight.w500),
+                  ),
                 ),
               ),
             ),
